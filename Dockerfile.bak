@@ -4,6 +4,6 @@ RUN apt-get update
 RUN apt-get install -y g++ nano
 WORKDIR /root/test/
 COPY homework_mp_5.1.1.cpp . 
-# RUN g++ homework_mp_5.1.1.cpp -o homework_mp_5.1.1
-#  CMD ["./homework_mp_5.1.1"]
+# RUN g++ hello_world.cpp -o hello_world
+#  CMD ["./hello_world"]
 	
